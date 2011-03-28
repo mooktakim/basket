@@ -35,4 +35,5 @@ Assumptions
 
 Each promotion can only apply to a single product (can't use across
 products, eg: when you buy prodx you get prody free).
+
 Each product can have only one promotion.
