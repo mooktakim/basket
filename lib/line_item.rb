@@ -1,4 +1,3 @@
-# encoding: UTF-8
 class LineItem
   attr_reader :product, :quantity
 

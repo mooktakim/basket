@@ -1,4 +1,3 @@
-# encoding: UTF-8
 class Basket
 
   attr_reader :line_items, :promotions
