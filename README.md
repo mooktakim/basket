@@ -9,10 +9,10 @@ ambiguous just make an assumption and add a test for it. This is not meant to
 take days to complete. A UI is not required.
 
 We have a number of products:
-An orange is 29p
-Bread is £1
-Milk is 90p
-Shower gel is £1.19
+* An orange is 29p
+* Bread is £1
+* Milk is 90p
+* Shower gel is £1.19
 
 We have some deals:
 * We'd like to do a 3 for the price of 2 deal on oranges.
@@ -37,3 +37,10 @@ Each promotion can only apply to a single product (can't use across
 products, eg: when you buy prodx you get prody free).
 
 Each product can have only one promotion.
+
+Run
+===
+
+You run the spec by:
+  bundle install
+  rake spec
